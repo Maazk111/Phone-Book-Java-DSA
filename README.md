@@ -51,6 +51,12 @@ PhoneBook/
 3. Run `Main.java` from `Main_Package`.
 4. You should see the GUI interface.
 
+## 👨‍💻 Developers
+
+- **Maaz Khan**
+- **Rumaisa Fatima**
+
+
 Alternatively:
 
 ```bash
