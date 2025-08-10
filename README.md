@@ -1,64 +1,53 @@
 # ☎️ Phone Book – Java Desktop Application
 
-This is a **Java-based Phone Book GUI application** developed using **Swing** in the 3rd semester for the **Data Structures and Algorithms (DSA)** lab project. The application uses advanced data structures like **AVL Trees** and **Doubly Linked Lists** to manage contact operations efficiently.
+## 📌 Overview
+A **Java Swing** GUI application built in the 3rd semester as part of the **Data Structures and Algorithms (DSA)** lab project.  
+The system efficiently manages contact operations using advanced data structures like **AVL Trees** and **Doubly Linked Lists**.
+
+> ⚡ Demonstrates skills in **Java GUI programming**, **data structures implementation**, and **file handling**.
 
 ---
 
 ## 📸 Screenshots
-
-| Home Screen                   | Recents | Keypad                            |
-|-------------------------------|---------|-----------------------------------|
-| ![home](screenshots/home.png) | ![recents](screenshots/recents.png) | ![keypad](screenshots/keypad.png) |
+| Home Screen                   | Recents                          | Keypad                            |
+|--------------------------------|-----------------------------------|------------------------------------|
+| ![home](screenshots/home.png)  | ![recents](screenshots/recents.png) | ![keypad](screenshots/keypad.png) |
 
 ---
 
 ## 🔧 Features
-
 - 📇 **Add Contact** with name, number, and email
-- 🔍 **Search Contact** with real-time results
+- 🔍 **Search Contact** with real-time results (AVL Tree)
 - 📝 **Update Contact** (change name)
 - ❌ **Delete Contact** with confirmation
-- 🧠 **AVL Tree** used for efficient searching and sorting
-- 🔁 **Recents List** using Doubly Linked List
-- 📁 **Data loaded from file** using FileReader
-- 🖥️ Built entirely in Java using Swing GUI
+- 🔁 **Recents List** implemented with Doubly Linked List
+- 📁 Load contact data from file using `FileReader`
+- 🖥️ Built entirely in Java using **Swing GUI**
 
 ---
 
-## 📁 Folder Structure
-
-PhoneBook/
-├── src/
-│ ├── Logs/ # Text file containing initial contact data
-│ ├── Main_Package/ # Entry point: Main.java
-│ ├── Test/ # Utility classes like AVLTree, LinkedList, etc.
-│ ├── Entries/ # GUI panels for Contacts
-│ ├── Keypad/ # GUI for number pad
-│ ├── Recents/ # GUI for recent calls
-├── assets/ # Images and icons
-├── Phone Book.iml
-├── README.md
-└── .gitignore
-
-
+## 🎯 Skills Demonstrated
+- Java Swing GUI Development
+- Advanced Data Structures (AVL Tree, Doubly Linked List)
+- File I/O in Java
+- Object-Oriented Programming (OOP) Principles
 
 ---
 
 ## 🚀 How to Run
+1. Open the project in **IntelliJ IDEA** or another Java IDE.
+2. Ensure **JDK 8+** is installed.
+3. Run `Main.java` from the `Main_Package` folder.
+4. The GUI interface should open.
 
-1. Open the project in **IntelliJ IDEA** or any Java IDE.
-2. Make sure JDK 8+ is set up.
-3. Run `Main.java` from `Main_Package`.
-4. You should see the GUI interface.
-
-## 👨‍💻 Developers
-
-- **Maaz Khan**
-- **Rumaisa Fatima**
-
-
-Alternatively:
-
+**Alternatively** (command line):
 ```bash
 javac src/Main_Package/Main.java
 java Main_Package.Main
+
+```
+
+## 👨‍💻 Developers & Roles
+
+- **Maaz Khan** – Developed core data structures (AVL Tree, Doubly Linked List) and implemented search, sorting, Recents, and Keypad features.
+- **Rumaisa Fatima** – Built Home Screen and Contacts Management GUI, integrated file I/O, and handled UI design.
