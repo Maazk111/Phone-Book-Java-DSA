@@ -47,7 +47,7 @@ java Main_Package.Main
 
 ```
 
-## 👨‍💻 Developers & Roles
+## 👨‍💻 Developers 
 
 - **Maaz Khan** – Developed core data structures (AVL Tree, Doubly Linked List) and implemented search, sorting, Recents, and Keypad features.
 - **Rumaisa Fatima** – Built Home Screen and Contacts Management GUI, integrated file I/O, and handled UI design.
